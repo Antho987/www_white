@@ -134,15 +134,19 @@ body{
     z-index:1;
 }
 /* ACCUEIL SECTION */
-.section_acc{
-    height: 100%;
-    width: 100%;
-}
 .blocked{
     width:1000px;
     margin:auto;
 }
-.content_acc{
+.info_white{
+    margin-bottom:30px;
+    p{
+        font-weight: bold;
+        font-size:2.5em;  
+    }
+}
+/*CONTENT
+ .content_acc{
     top:0%;
     left: 0%;
     text-align: center;
@@ -158,13 +162,6 @@ body{
     height:50%;
     h1{
         font-size:1.5em;
-    }
-}
-.info_white{
-    margin-bottom:30px;
-    p{
-        font-weight: bold;
-        font-size:2.5em;  
     }
 }
 .where_white{
@@ -200,7 +197,7 @@ body{
         background:rgba(51,51,51,0.5);
         border-radius: 11px;
     }
-}
+} */
 /* ==========================================================================
    Helper classes
    ========================================================================== */
