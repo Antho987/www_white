@@ -1,0 +1,2 @@
+ErrorDocument 404 http://www.whiterestaurant.com/404.html
+#RedirectPermanent /ancienne-url.html http://www.whiterestaurant.com/nouvelle-url.html
