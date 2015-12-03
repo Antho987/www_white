@@ -122,14 +122,18 @@ body{
     width:100%;
 }
 /* VARIABLES*/
-$typocomics :'TYPO-COMICS-Bold-DEMO';
-$phosphate :'PhosphateRRSolid';
+$typocomics :'TYPO-COMICS-Bold-DEMO', sans-serif;
+$montserrat :'Montserrat', sans-serif;
+$phosphate :'PhosphateRRSolid', sans-serif;
 $yellow : #ffcc33;
 /*FONTS*/
 .phosphate{ 
     font-family: PhosphateRRSolid;
     font-weight: normal;
     font-style: normal;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
 }
 .typocomics{
      font-family: 'TYPO-COMICS-Bold-DEMO';
@@ -173,10 +177,11 @@ $yellow : #ffcc33;
 .info_white{
     position:absolute;
     top:10%;
-    font-family: $typocomics;
+    font-family:$montserrat;
+    font-style: italic;
     p{
         font-weight: bold;
-        font-size:2.5em;  
+        font-size:5em;  
     }
 }
 .slider_content{
