@@ -107,6 +107,7 @@ body{
     max-width: 100%;
     background:black;
 }
+/*ATTRIBUTS GENERAUX*/
 .absolute{
     position: absolute;
 }
@@ -120,14 +121,16 @@ body{
     height: 100%;
     width:100%;
 }
+/* VARIABLES*/
+$typocomics :'TYPO-COMICS-Bold-DEMO';
+$phosphate :'PhosphateRRSolid';
+$yellow : #ffcc33;
 /*FONTS*/
 .phosphate{ 
     font-family: PhosphateRRSolid;
     font-weight: normal;
     font-style: normal;
 }
-$typocomics :'TYPO-COMICS-Bold-DEMO';
-
 .typocomics{
      font-family: 'TYPO-COMICS-Bold-DEMO';
 }
@@ -137,6 +140,24 @@ $typocomics :'TYPO-COMICS-Bold-DEMO';
     left:25px;
     width: 250px;    
     z-index:1;
+}
+.booking_content{
+    right:25px;
+    top:25px;
+    z-index: 1;
+    color:white;
+    font-family:$phosphate;
+    letter-spacing:0.15em;
+    p{
+        text-transform: uppercase;
+        text-align:right;
+    }
+}
+.font_size_booking{
+    font-size:2em;
+    span{
+        color:$yellow;
+    }
 }
 /*FOND OPACITY BODY ACCUEIL*/
 .fond_acc{

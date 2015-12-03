@@ -91,6 +91,7 @@ body {
   max-width: 100%;
   background: black; }
 
+/*ATTRIBUTS GENERAUX*/
 .absolute {
   position: absolute; }
 
@@ -104,6 +105,7 @@ body {
   height: 100%;
   width: 100%; }
 
+/* VARIABLES*/
 /*FONTS*/
 .phosphate {
   font-family: PhosphateRRSolid;
@@ -119,6 +121,22 @@ body {
   left: 25px;
   width: 250px;
   z-index: 1; }
+
+.booking_content {
+  right: 25px;
+  top: 25px;
+  z-index: 1;
+  color: white;
+  font-family: "PhosphateRRSolid";
+  letter-spacing: 0.15em; }
+  .booking_content p {
+    text-transform: uppercase;
+    text-align: right; }
+
+.font_size_booking {
+  font-size: 2em; }
+  .font_size_booking span {
+    color: #ffcc33; }
 
 /*FOND OPACITY BODY ACCUEIL*/
 .fond_acc {
