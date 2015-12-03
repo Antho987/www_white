@@ -165,6 +165,25 @@ body {
   height: 50%;
   top: 25%; }
 
+/*NAV*/
+.navigation_acc {
+  color: white;
+  text-transform: uppercase;
+  bottom: 20px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "PhosphateRRSolid", sans-serif;
+  letter-spacing: 0.1em;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border: none; }
+  .navigation_acc ul {
+    display: table-row; }
+    .navigation_acc ul li {
+      display: table-cell;
+      margin: 0; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
