@@ -123,10 +123,15 @@ body {
   margin: auto; }
 
 .info_white {
-  margin-bottom: 30px; }
+  position: absolute;
+  top: 10%; }
   .info_white p {
     font-weight: bold;
     font-size: 2.5em; }
+
+.slider_content {
+  height: 50%;
+  top: 25%; }
 
 /*CONTENT
  .content_acc{
